@@ -1,10 +1,28 @@
 ﻿@page
-@model IndexModel
-@{
-    ViewData["Title"] = "Home page";
-}
+<head>
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+    @model IndexModel
+    @{
+        ViewData["Title"] = "Home page";
+    }
+</head>
+<body>
+    <div id="cabecera">
+        <div class="text-center">
+            <h1 class="display-4">Welcome</h1>
+            
+        </div>
+    </div>
+    <div id="cuerpo">
+        <div class="text-center">
+            <p>En esta pagina web se nos muestra una base de datos relacionada con videojuegos y la cual podemos editarla y visualizarla mediante los botones asignados.</p>
+            <p> por ejemplo: Si tu vas al apartado de producto y le das al boton del ojo del producto que quieras editar te llevara al editor y podras editar toda la pagina.</p>
+        </div>
+    </div>
+    <div id="pie">
+        <div class="text-center">
+            
+            <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+        </div>
+    </div>
+</body>
